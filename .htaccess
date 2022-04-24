@@ -8,7 +8,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 
-RewriteCond %{REQUEST_URI} !^/folder/ [NC]
+RewriteCond %{REQUEST_URI} !^/html/ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ folder/$1 [L]
+RewriteRule ^(.*)$ html/$1 [L]

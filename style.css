@@ -1,20 +1,20 @@
 html *
 {
-   /* font-size: 1em !important; */
-   color: #000 !important;
-   font-family: Arial !important;
+    color: #D3D3D3 !important;
+    font-family: Arial !important;
 }
+
 body{
     margin-top: 0px;
+    background-color: #37474f;
 }
 
 .mainBackground{
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 550px;
+    margin-right: 550px;
     margin-top: 50px;
-    background-color: #37474f;
+    background-color: black;
     height: 1800px;
-
 }
 
 header{
@@ -27,6 +27,7 @@ h1{
     font-size: 28px;
     margin-bottom: 4px;
 }
+
 h2{
     font-size:16px;
     margin-top:0px;
@@ -36,15 +37,15 @@ h2{
     margin-top: 25px;
 }
 
-
 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 18px;
     margin: 0px;
     padding: 0px;
 }
+
 a{
     text-decoration: none;
 }
